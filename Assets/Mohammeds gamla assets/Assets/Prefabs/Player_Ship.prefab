@@ -70,10 +70,10 @@ GameObject:
   m_Component:
   - component: {fileID: 6658933788531523386}
   - component: {fileID: 6658933788531523389}
-  - component: {fileID: 6658933788531523387}
   - component: {fileID: 6658933788531523385}
   - component: {fileID: 6658933788531523384}
   - component: {fileID: 4875046077713202263}
+  - component: {fileID: 1222239017857996571}
   m_Layer: 0
   m_Name: Player_Ship
   m_TagString: Player
@@ -112,6 +112,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -134,10 +135,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1759675411
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -5396836429183755663, guid: 52d5c8fec8d04784188e6968f142df02,
-    type: 3}
+  m_Sprite: {fileID: -5396836429183755663, guid: 52d5c8fec8d04784188e6968f142df02, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -148,22 +148,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6658933788531523387
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6658933788531523388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 028bd784f1d59e047897f74f90c6d277, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  a: {fileID: 1618276076}
-  b: {fileID: 1561698728}
-  bullet: {fileID: 2536836658375905615, guid: 63a590dee0d885944a793b5f80670091, type: 3}
-  speed: 85
 --- !u!50 &6658933788531523385
 Rigidbody2D:
   serializedVersion: 4
@@ -238,3 +222,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1222239017857996571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6658933788531523388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7624cb6ff2176d148a40452d759c6d92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  a: {fileID: 1618276076}
+  b: {fileID: 1561698728}
+  bullet: {fileID: 2536836658375905615, guid: 63a590dee0d885944a793b5f80670091, type: 3}
+  spaceShipExplosion: {fileID: 5978069263699004831, guid: 578500f1847ed4847b9751a1b079b465, type: 3}
+  speed: 85

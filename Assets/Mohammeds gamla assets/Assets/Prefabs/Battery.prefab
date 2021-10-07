@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4845234283028852806}
   - component: {fileID: 7873205881935914177}
   - component: {fileID: 3605825682826992093}
-  - component: {fileID: 1027524985578397910}
+  - component: {fileID: 2396195984808121799}
   m_Layer: 0
   m_Name: Battery
   m_TagString: Untagged
@@ -48,6 +48,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -109,7 +110,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.3785149, y: 0.8214644}
   m_EdgeRadius: 0
---- !u!114 &1027524985578397910
+--- !u!114 &2396195984808121799
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -118,6 +119,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 4441312734472727258}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51ef4dfd1f3bea24081dc471a61e1524, type: 3}
+  m_Script: {fileID: 11500000, guid: db522cc499850d04ebde2bdaf65b15d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

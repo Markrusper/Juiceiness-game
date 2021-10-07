@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1381505469904026176}
   - component: {fileID: 1381505469904026179}
   - component: {fileID: 1381505469904026178}
-  - component: {fileID: 4072701444502729621}
+  - component: {fileID: 2662317443406961119}
   m_Layer: 8
   m_Name: Boundaries
   m_TagString: Untagged
@@ -139,7 +139,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 22, y: 1}
   m_EdgeRadius: 0
---- !u!114 &4072701444502729621
+--- !u!114 &2662317443406961119
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -148,10 +148,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1381505469904026181}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4987610e08926af44be36d4ad9b693e5, type: 3}
+  m_Script: {fileID: 11500000, guid: dac5e8b3c7dfda847bde17225aeea2b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rate: 2
-  enemies:
-  - {fileID: 8868283559490803420, guid: b796dfc5a1f34154c901d1684cfb0793, type: 3}
-  waves: 5
+  rate: 0
+  enemies: []
+  waves: 1
