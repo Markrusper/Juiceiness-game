@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5182176870534077479}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 1176301120371937430}
   - component: {fileID: 1176301120371937426}
   - component: {fileID: 6490974360323761902}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: TankEnemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}

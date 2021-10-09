@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1381505469904026176}
   - component: {fileID: 1381505469904026179}
   - component: {fileID: 1381505469904026178}
-  - component: {fileID: 2662317443406961119}
+  - component: {fileID: 1446680617}
   m_Layer: 8
   m_Name: Boundaries
   m_TagString: Untagged
@@ -45,7 +45,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -9.8, y: 0}
@@ -71,7 +71,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 9.8, y: 0}
@@ -97,7 +97,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -5.5}
@@ -123,7 +123,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 5.5}
@@ -139,7 +139,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 22, y: 1}
   m_EdgeRadius: 0
---- !u!114 &2662317443406961119
+--- !u!114 &1446680617
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -151,6 +151,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dac5e8b3c7dfda847bde17225aeea2b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rate: 0
-  enemies: []
-  waves: 1
+  rate: 1
+  enemies:
+  - {fileID: 7303027210360065128, guid: a34deb26dc4f8c94dbed70c3f2b79a1c, type: 3}
+  - {fileID: 8868283559490803420, guid: b796dfc5a1f34154c901d1684cfb0793, type: 3}
+  - {fileID: 1880288690458241056, guid: 39137d0312bab254dbcf54682ee28e21, type: 3}
+  - {fileID: 1176301120371937429, guid: 97a82e22331b55c428828a3f14975b49, type: 3}
+  waves: 2
